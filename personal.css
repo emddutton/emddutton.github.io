@@ -1,0 +1,66 @@
+body {
+    background-color: #4d9596;
+    background-image: linear-gradient(transparent 50%, rgba(255,255,255,.1) 50%);
+    background-size: 50px 50px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+header {
+    margin-top: 20px;
+    text-align: center;
+}
+header > img {
+    height: 225px;
+}
+nav {
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    text-shadow: 0 2px 5px gray;
+}
+.menu {
+    display: inline;
+    text-align: center;
+    margin: 10px 25px;
+    cursor: pointer;
+}
+.menu.active {
+    text-decoration: underline;
+}
+.menu a {
+    text-decoration: none;
+    color: white;
+}
+.menu:hover {
+    text-decoration: underline;
+}
+hr {
+    width: 50%;
+    text-align: center;
+    height: 2px;
+}
+.fade {
+    display: none;
+    width: 50%;
+    margin: 20px auto;
+    background-color: rgba(77, 149, 150, .7);
+}
+.fade.active {
+    display: block;
+}
+#portfolio {
+    width: 40%;
+    margin: 50px auto;
+    -moz-column-count: 2;
+    -moz-column-gap: 1em;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 1em;
+    column-count: 2;
+    column-gap: 1em;
+
+}
+.box {
+    height: 175px;
+    width: 175px;
+    border: 1px solid darkblue;
+}
