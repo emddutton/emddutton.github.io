@@ -9,7 +9,6 @@ $(document).ready(function(){
             } else {
                 $(".fade").removeClass("active");
             }
-
         }
 
     $(".menu").on('click', function(){
