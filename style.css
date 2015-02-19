@@ -1,0 +1,74 @@
+body {
+    width: 760px;
+    margin: 0 auto;
+}
+
+
+html {
+    background: url(sunset.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.intro{
+    height: 300px;
+    width: 750px;
+    background: rgba(20,20,20,.2);
+    border-radius: 50%;
+    position: absolute;
+    margin: 300px 0 0 0;
+}
+h1 {
+    font-family: 'Shadows Into Light Two', cursive;
+    font-size: 95px;
+    color: #ddd;
+    margin: 40px 0 0 0;
+    position: relative;
+    text-align: center;
+}
+hr {
+    width: 720px;
+}
+
+ul {
+    font-family: 'Lato', sans-serif;
+    font-size: 35px;
+    color: #ddd;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+li {
+    display: inline-block;
+    margin: 0 25px 0 25px;
+    cursor: pointer;
+}
+.box {
+    height: 80px;
+    width: 80px;
+    border: 1px solid black;
+}
+.fade {
+    display: none;
+    margin-top: 100px;
+}
+.fade.active {
+    display: block;
+    margin-top: 100px;
+}
+
+.move {
+    background:none;
+    margin: 40px 0 0 0;
+    transform: translate(0,-200px);
+    -webkit-transform: translate(0,-200px);
+    -o-transform: translate(0,-200px);
+    -moz-transform: translate(0,-200px);
+
+}
+
+
+
