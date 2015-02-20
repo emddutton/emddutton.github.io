@@ -47,9 +47,12 @@ li {
     cursor: pointer;
 }
 .box {
-    height: 80px;
-    width: 80px;
-    border: 1px solid black;
+    height: 150px;
+    width: 150px;
+    border: 2px solid white;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
 }
 .fade {
     display: none;
@@ -58,17 +61,30 @@ li {
 .fade.active {
     display: block;
     margin-top: 100px;
+    margin-bottom: 40px;
+    padding: 10px;
+    background: rgba(20,20,20,.2);
+    border-radius: 10%;
+}
+h2 {
+    font-family: 'Shadows Into Light Two', cursive;
+    text-align: center;
+    font-size: 55px;
+    color: white;
+    margin: 30px auto;
+}
+p {
+    font-family: 'Lato', sans-serif;
+    color: white;
+    margin: 0 10px 10px 10px;
+}
+.boxes {
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
 }
 
-.move {
-    background:none;
-    margin: 40px 0 0 0;
-    transform: translate(0,-200px);
-    -webkit-transform: translate(0,-200px);
-    -o-transform: translate(0,-200px);
-    -moz-transform: translate(0,-200px);
 
-}
 
 
 
