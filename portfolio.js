@@ -7,13 +7,13 @@ $(document).ready(function(){
             if($("div").hasClass("intro")){
                 $("div").removeClass("intro");
             } else {
-                $(".fade").removeClass("active");
+                $(".fade").hide("fast");
             }
         }
 
     $(".menu").on('click', function(){
             reload();
-            $(".fade." + this.id).addClass("active");
+            $(".fade." + this.id).show("slow");
     });
 
 });
