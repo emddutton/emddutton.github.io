@@ -83,7 +83,7 @@ h3 {
 .content {
     color: white;
     font-family: 'Lato', sans-serif;
-    margin: 0 10px 10px 10px;
+    margin: 0 20px 20px 20px;
 }
 .date {
     float: right;
@@ -97,6 +97,10 @@ h3 {
     float: right;
 }
 */
+
+li > a {
+    color: white;
+}
 
 
 
