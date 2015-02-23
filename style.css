@@ -98,8 +98,25 @@ h3 {
 }
 */
 
-li > a {
+a {
     color: white;
+}
+img {
+    height: 250px;
+    width: auto;
+    padding: 5px;
+    margin-right: 5px;
+    float: left;
+}
+
+.icons {
+    text-align: center;
+}
+.fa {
+    margin: 20px;
+}
+.resumeline {
+    width: auto;
 }
 
 
